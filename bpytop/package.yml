@@ -1,0 +1,18 @@
+name       : bpytop
+version    : 1.0.67
+release    : 1
+source     :
+    - https://github.com/aristocratos/bpytop/archive/refs/tags/v1.0.67.tar.gz : e3f0267bd40a58016b5ac81ed6424f1c8d953b33a537546b22dd1a2b01b07a97
+license    : Apache-2.0
+component  : system.utils
+summary    : Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
+description: |
+    Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
+builddeps  :
+    - pkgconfig(python3)
+rundeps    :
+    - python3
+    - python-psutil
+setup      : |
+install    : |
+    %make_install

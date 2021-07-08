@@ -1,0 +1,27 @@
+name       : liquidctl
+version    : 1.7.0
+release    : 1
+source     :
+    - https://github.com/liquidctl/liquidctl/releases/download/v1.7.0/liquidctl-1.7.0.tar.gz : 053675aca9ba9a3c14d8ef24d1a2e75c592c55a1b8ba494447bc13d3ae523d6f
+license    : GPL-3.0
+component  : system.utils
+summary    : Cross-platform tool and drivers for liquid coolers and other devices
+description: |
+    Cross-platform tool and drivers for liquid coolers and other devices
+builddeps  :
+    - pkgconfig(python-3.7)
+    - python-setuptools
+    - python-docopt
+    - python-colorlog
+    - python-pyusb
+    - pkgconfig(hidapi-libusb)
+    - i2c-tools
+    - pkgconfig(libusb-1.0)
+    - pip
+    - python-pytest
+setup      : |
+    
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
