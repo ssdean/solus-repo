@@ -13,6 +13,5 @@ builddeps  :
 rundeps    :
     - python3
     - python-psutil
-setup      : |
 install    : |
     %make_install
