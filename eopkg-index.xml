@@ -1,0 +1,80 @@
+<PISI>
+    <Package>
+        <Name>liquidctl</Name>
+        <Summary xml:lang="en">Cross-platform tool and drivers for liquid coolers and other devices</Summary>
+        <Description xml:lang="en">Cross-platform tool and drivers for liquid coolers and other devices</Description>
+        <PartOf>system.utils</PartOf>
+        <License>GPL-3.0</License>
+        <RuntimeDependencies>
+            <Dependency>python3</Dependency>
+            <Dependency>python-setuptools</Dependency>
+            <Dependency>hidapi</Dependency>
+            <Dependency>i2c-tools</Dependency>
+            <Dependency>libusb</Dependency>
+            <Dependency>python-pyusb</Dependency>
+            <Dependency>python-docopt</Dependency>
+            <Dependency>python-colorlog</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-08-03</Date>
+                <Version>1.7.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Steven Dean</Name>
+                <Email>ssdean@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>497832</InstalledSize>
+        <PackageSize>124897</PackageSize>
+        <PackageHash>3f3626265c834041bf6b3d7a074e9961bdb0a4d1</PackageHash>
+        <PackageURI>packages/liquidctl/liquidctl-1.7.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>liquidctl</Name>
+            <Packager>
+                <Name>Steven Dean</Name>
+                <Email>ssdean@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>bpytop</Name>
+        <Summary xml:lang="en">Resource monitor that shows usage and stats for processor, memory, disks, network and processes.</Summary>
+        <Description xml:lang="en">Resource monitor that shows usage and stats for processor, memory, disks, network and processes.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>Apache-2.0</License>
+        <RuntimeDependencies>
+            <Dependency>python3</Dependency>
+            <Dependency>python-psutil</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2021-07-08</Date>
+                <Version>1.0.67</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Steven Dean</Name>
+                <Email>stevendean8@outlook.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>265487</InstalledSize>
+        <PackageSize>62605</PackageSize>
+        <PackageHash>1ecf41909ce439a1524cfd7f10d8e78ba3d41658</PackageHash>
+        <PackageURI>packages/bpytop/bpytop-1.0.67-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>bpytop</Name>
+            <Packager>
+                <Name>Steven Dean</Name>
+                <Email>stevendean8@outlook.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+</PISI>
