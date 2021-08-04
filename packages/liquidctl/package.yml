@@ -11,12 +11,6 @@ description: |
 builddeps  :
     - python3-devel
     - python-setuptools
-    - hidapi
-    - i2c-tools
-    - libusb
-    - python-pyusb
-    - python-docopt
-    - python-colorlog
 rundeps: 
     - python3
     - python-setuptools
@@ -27,7 +21,6 @@ rundeps:
     - python-docopt
     - python-colorlog
 setup      : |
-    %python3_setup
 
 install    : |
     %python3_install

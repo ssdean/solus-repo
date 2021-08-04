@@ -1,0 +1,3 @@
+[submodule "packages/common"]
+	path = packages/common
+	url = https://dev.getsol.us/source/common.git
